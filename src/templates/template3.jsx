@@ -31,7 +31,7 @@ const Template3 = () => {
 
           <HStack spacing={1}>
             <MdMail />{" "}
-            <Text>{about.email ? about.email : "ethan@gmail.com"}</Text>
+            <Text>{about.email ? about.email : "sb4549@k12.sd.us"}</Text>
           </HStack>
           <HStack spacing={1}>
             <MdLocalPhone />{" "}
@@ -39,7 +39,7 @@ const Template3 = () => {
           </HStack>
           <HStack spacing={1}>
             <MdLocationPin />{" "}
-            <Text>{about.address ? about.address : "Seattle, WA"}</Text>
+            <Text>{about.address ? about.address : "SD"}</Text>
           </HStack>
           <HStack spacing={1}>
             <RiLinkedinBoxFill />{" "}
@@ -89,10 +89,10 @@ const Template3 = () => {
                 pb={2}
               >
                 <Text fontWeight={"medium"}>
-                  {position ? position : "Full Stack Developer"}
+                  {position ? position : "Developer"}
                 </Text>
                 <Text fontSize={"sm"}>
-                  {company ? company : "XYZ Infotech Services"} -{" "}
+                  {company ? company : "Self"} -{" "}
                   {type ? type : "Full-time"}
                 </Text>
                 <Text fontSize={"xs"} fontStyle={"italic"}>
@@ -132,7 +132,7 @@ const Template3 = () => {
                     <Text fontSize={"sm"} as="p">
                       {desc
                         ? desc
-                        : "Lorem ipsum dolor sit amet consectetur adipisicing."}
+                        : ""}
                     </Text>
                   </ListItem>
                 </UnorderedList>
