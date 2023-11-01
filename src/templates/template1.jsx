@@ -41,7 +41,7 @@ export default function Template1() {
 
           <HStack spacing={1}>
             <MdMail />{" "}
-            <Text>{about.email ? about.email : "ethan@gmail.com"}</Text>
+            <Text>{about.email ? about.email : "SB4549@k12.sd.us"}</Text>
           </HStack>
           <HStack spacing={1}>
             <MdLocalPhone />{" "}
@@ -49,7 +49,7 @@ export default function Template1() {
           </HStack>
           <HStack spacing={1}>
             <MdLocationPin />{" "}
-            <Text>{about.address ? about.address : "Seattle, WA"}</Text>
+            <Text>{about.address ? about.address : "SD"}</Text>
           </HStack>
           <HStack spacing={1}>
             <RiLinkedinBoxFill />{" "}
@@ -85,10 +85,10 @@ export default function Template1() {
                 pb={2}
               >
                 <Text fontWeight={"medium"}>
-                  {degree ? degree : "B.Tech Computer Engineering"}
+                  {degree ? degree : "N/A"}
                 </Text>
                 <Text fontSize={"sm"}>
-                  {school ? school : "College of Engineering Pune"}
+                  {school ? school : "N/A"}
                 </Text>
                 <HStack
                   fontSize={"xs"}
@@ -99,7 +99,7 @@ export default function Template1() {
                   <Text>
                     {startYr ? startYr : 2014} - {endYr ? endYr : 2018}
                   </Text>
-                  <Text>{grade ? grade : "8.7 CGPA"}</Text>
+                  <Text>{grade ? grade : "N/a"}</Text>
                 </HStack>
               </VStack>
             );
@@ -109,7 +109,7 @@ export default function Template1() {
 
       <div className="rela-block content-container">
         <h2 className="rela-block caps title">
-          {about.role ? about.role : "Full Stack Software Engineer"}
+          {about.role ? about.role : "Freelancer"}
         </h2>
         <div className="rela-block separator"></div>
 
@@ -132,9 +132,9 @@ export default function Template1() {
               lineHeight={1.3}
               pb={2}
             >
-              <h3> {position ? position : "Full Stack Developer"}</h3>
+              <h3> {position ? position : "Developer"}</h3>
               <Text fontSize={"sm"}>
-                {company ? company : "XYZ Infotech Services"} -{" "}
+                {company ? company : "Self "} -{" "}
                 {type ? type : "Full-time"}
               </Text>
               <Text fontSize={"xs"} fontStyle={"italic"}>
@@ -163,7 +163,7 @@ export default function Template1() {
             >
               <HStack as="a" href={url} target="_blank" spacing={0.5}>
                 <Text fontWeight={"medium"} flex={"row"}>
-                  {name ? name : "Project Name"}{" "}
+                  {name ? name : "Project Name"}{"CAH Online "}
                 </Text>{" "}
                 <BiLinkExternal />
               </HStack>
