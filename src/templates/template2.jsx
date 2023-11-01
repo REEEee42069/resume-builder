@@ -37,10 +37,10 @@ const Template2 = () => {
 
           <VStack m={4} alignItems={"flex-start"} spacing={0.5}>
             <Heading as="h4" size="md">
-              {about.name ? about.name : "Ethan Uong"}
+              {about.name ? about.name : "Sky B"}
             </Heading>
             <Text color={"gray.500"}>
-              {about.role ? about.role : "Full Stack Software Engineer"}
+              {about.role ? about.role : "Freelancer"}
             </Text>
           </VStack>
         </HStack>
@@ -53,7 +53,7 @@ const Template2 = () => {
         >
           <HStack spacing={1}>
             <MdMail />{" "}
-            <Text>{about.email ? about.email : "ethan@gmail.com"}</Text>
+            <Text>{about.email ? about.email : "sb4549@k12.sd.us"}</Text>
           </HStack>
           <HStack spacing={1}>
             <MdLocalPhone />{" "}
@@ -61,7 +61,7 @@ const Template2 = () => {
           </HStack>
           <HStack spacing={1}>
             <MdLocationPin />{" "}
-            <Text>{about.address ? about.address : "Seattle, WA"}</Text>
+            <Text>{about.address ? about.address : "SD"}</Text>
           </HStack>
           <HStack spacing={1}>
             <RiLinkedinBoxFill />{" "}
@@ -99,10 +99,10 @@ const Template2 = () => {
                     pb={2}
                   >
                     <Text fontWeight={"medium"}>
-                      {degree ? degree : "B.Tech Computer Engineering"}
+                      {degree ? degree : "N/A"}
                     </Text>
                     <Text fontSize={"sm"}>
-                      {school ? school : "College of Engineering Pune"}
+                      {school ? school : "N/A"}
                     </Text>
                     <HStack
                       fontSize={"xs"}
@@ -111,9 +111,9 @@ const Template2 = () => {
                       w={"full"}
                     >
                       <Text>
-                        {startYr ? startYr : 2014} - {endYr ? endYr : 2018}
+                        {startYr ? startYr : 2011} - {endYr ? endYr : 2027}
                       </Text>
-                      <Text>{grade ? grade : "8.7 CGPA"}</Text>
+                      <Text>{grade ? grade : "N/A"}</Text>
                     </HStack>
                   </VStack>
                 );
@@ -143,10 +143,10 @@ const Template2 = () => {
                     pb={2}
                   >
                     <Text fontWeight={"medium"}>
-                      {position ? position : "Full Stack Developer"}
+                      {position ? position : "Developer"}
                     </Text>
                     <Text fontSize={"sm"}>
-                      {company ? company : "XYZ Infotech Services"} -{" "}
+                      {company ? company : "Self"} -{" "}
                       {type ? type : "Full-time"}
                     </Text>
                     <Text fontSize={"xs"} fontStyle={"italic"}>
@@ -210,7 +210,7 @@ const Template2 = () => {
                         <Text fontSize={"sm"} as="p">
                           {desc
                             ? desc
-                            : "Lorem ipsum dolor sit amet consectetur adipisicing."}
+                            : ""}
                         </Text>
                       </ListItem>
                     </UnorderedList>
